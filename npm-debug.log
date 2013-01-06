@@ -1,0 +1,113 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/iammerrick/.nvm/v0.8.15/bin/node',
+1 verbose cli   '/Users/iammerrick/.nvm/v0.8.15/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.1.66
+3 info using node@v0.8.15
+4 verbose publish [ '.' ]
+5 verbose read json /Users/iammerrick/Developer/JavaScript/virality/package.json
+6 warn package.json virality@0.0.1 No README.md file found!
+7 verbose cache add [ '.', null ]
+8 silly cache add name=undefined spec="." args=[".",null]
+9 verbose parsed url { pathname: '.', path: '.', href: '.' }
+10 silly lockFile 3a52ce78- .
+11 verbose lock . /Users/iammerrick/.npm/3a52ce78-.lock
+12 verbose read json package.json
+13 verbose tar pack [ '/var/folders/19/0lv0st1n0k7cd2qts4_2lfvr0000gn/T/npm-7578/1357452834251-0.3570867758244276/tmp.tgz',
+13 verbose tar pack   '.' ]
+14 verbose tarball /var/folders/19/0lv0st1n0k7cd2qts4_2lfvr0000gn/T/npm-7578/1357452834251-0.3570867758244276/tmp.tgz
+15 verbose folder .
+16 info prepublish virality@0.0.1
+17 silly lockFile 891c82f0-34251-0-3570867758244276-tmp-tgz /var/folders/19/0lv0st1n0k7cd2qts4_2lfvr0000gn/T/npm-7578/1357452834251-0.3570867758244276/tmp.tgz
+18 verbose lock /var/folders/19/0lv0st1n0k7cd2qts4_2lfvr0000gn/T/npm-7578/1357452834251-0.3570867758244276/tmp.tgz /Users/iammerrick/.npm/891c82f0-34251-0-3570867758244276-tmp-tgz.lock
+19 silly lockFile 891c82f0-34251-0-3570867758244276-tmp-tgz /var/folders/19/0lv0st1n0k7cd2qts4_2lfvr0000gn/T/npm-7578/1357452834251-0.3570867758244276/tmp.tgz
+20 verbose tar unpack /var/folders/19/0lv0st1n0k7cd2qts4_2lfvr0000gn/T/npm-7578/1357452834251-0.3570867758244276/tmp.tgz
+21 silly lockFile 0a7af6c9-34251-0-3570867758244276-package /var/folders/19/0lv0st1n0k7cd2qts4_2lfvr0000gn/T/npm-7578/1357452834251-0.3570867758244276/package
+22 verbose lock /var/folders/19/0lv0st1n0k7cd2qts4_2lfvr0000gn/T/npm-7578/1357452834251-0.3570867758244276/package /Users/iammerrick/.npm/0a7af6c9-34251-0-3570867758244276-package.lock
+23 silly gunzTarPerm modes [ '755', '644' ]
+24 silly gunzTarPerm extractEntry package.json
+25 silly gunzTarPerm extractEntry .npmignore
+26 silly gunzTarPerm extractEntry virality.js
+27 silly gunzTarPerm extractEntry bin/virality
+28 silly gunzTarPerm extractEntry connectors/facebook.js
+29 silly gunzTarPerm extractEntry connectors/index.js
+30 silly gunzTarPerm extractEntry connectors/linkedin.js
+31 silly gunzTarPerm extractEntry connectors/pinterest.js
+32 silly gunzTarPerm extractEntry connectors/twitter.js
+33 silly gunzTarPerm extractEntry resources/banner.txt
+34 verbose read json /var/folders/19/0lv0st1n0k7cd2qts4_2lfvr0000gn/T/npm-7578/1357452834251-0.3570867758244276/package/package.json
+35 silly lockFile 0a7af6c9-34251-0-3570867758244276-package /var/folders/19/0lv0st1n0k7cd2qts4_2lfvr0000gn/T/npm-7578/1357452834251-0.3570867758244276/package
+36 verbose from cache /var/folders/19/0lv0st1n0k7cd2qts4_2lfvr0000gn/T/npm-7578/1357452834251-0.3570867758244276/package/package.json
+37 verbose tar pack [ '/Users/iammerrick/.npm/virality/0.0.1/package.tgz',
+37 verbose tar pack   '/var/folders/19/0lv0st1n0k7cd2qts4_2lfvr0000gn/T/npm-7578/1357452834251-0.3570867758244276/package' ]
+38 verbose tarball /Users/iammerrick/.npm/virality/0.0.1/package.tgz
+39 verbose folder /var/folders/19/0lv0st1n0k7cd2qts4_2lfvr0000gn/T/npm-7578/1357452834251-0.3570867758244276/package
+40 silly lockFile 5796e4c1-k-npm-virality-0-0-1-package-tgz /Users/iammerrick/.npm/virality/0.0.1/package.tgz
+41 verbose lock /Users/iammerrick/.npm/virality/0.0.1/package.tgz /Users/iammerrick/.npm/5796e4c1-k-npm-virality-0-0-1-package-tgz.lock
+42 silly lockFile 5796e4c1-k-npm-virality-0-0-1-package-tgz /Users/iammerrick/.npm/virality/0.0.1/package.tgz
+43 silly lockFile e57011a3-rrick-npm-virality-0-0-1-package /Users/iammerrick/.npm/virality/0.0.1/package
+44 verbose lock /Users/iammerrick/.npm/virality/0.0.1/package /Users/iammerrick/.npm/e57011a3-rrick-npm-virality-0-0-1-package.lock
+45 silly lockFile e57011a3-rrick-npm-virality-0-0-1-package /Users/iammerrick/.npm/virality/0.0.1/package
+46 verbose tar unpack /Users/iammerrick/.npm/virality/0.0.1/package.tgz
+47 silly lockFile e57011a3-rrick-npm-virality-0-0-1-package /Users/iammerrick/.npm/virality/0.0.1/package
+48 verbose lock /Users/iammerrick/.npm/virality/0.0.1/package /Users/iammerrick/.npm/e57011a3-rrick-npm-virality-0-0-1-package.lock
+49 silly gunzTarPerm modes [ '755', '644' ]
+50 silly gunzTarPerm extractEntry package.json
+51 silly gunzTarPerm extractEntry .npmignore
+52 silly gunzTarPerm extractEntry virality.js
+53 silly gunzTarPerm extractEntry bin/virality
+54 silly gunzTarPerm extractEntry connectors/facebook.js
+55 silly gunzTarPerm extractEntry connectors/index.js
+56 silly gunzTarPerm extractEntry connectors/linkedin.js
+57 silly gunzTarPerm extractEntry connectors/pinterest.js
+58 silly gunzTarPerm extractEntry connectors/twitter.js
+59 silly gunzTarPerm extractEntry resources/banner.txt
+60 verbose read json /Users/iammerrick/.npm/virality/0.0.1/package/package.json
+61 silly lockFile e57011a3-rrick-npm-virality-0-0-1-package /Users/iammerrick/.npm/virality/0.0.1/package
+62 silly shasum updated bytes 1775
+63 info shasum 1e8ce9298e57e77d6ce2b7918c35b16d079881f4
+63 info shasum /Users/iammerrick/.npm/virality/0.0.1/package.tgz
+64 verbose from cache /Users/iammerrick/.npm/virality/0.0.1/package/package.json
+65 verbose chmod /Users/iammerrick/.npm/virality/0.0.1/package.tgz 644
+66 verbose chown /Users/iammerrick/.npm/virality/0.0.1/package.tgz [ 501, 20 ]
+67 silly lockFile 3a52ce78- .
+68 silly publish { name: 'virality',
+68 silly publish   version: '0.0.1',
+68 silly publish   description: 'A command line utility to check the virality of a particular URL.',
+68 silly publish   author:
+68 silly publish    { name: 'Merrick Christensen',
+68 silly publish      email: 'merrick.christensen@gmail.com' },
+68 silly publish   dependencies:
+68 silly publish    { optimist: 'latest',
+68 silly publish      request: '~2.12.0',
+68 silly publish      q: '~0.8.12',
+68 silly publish      colors: '~0.6.0-1' },
+68 silly publish   bin: { virality: 'bin/virality' },
+68 silly publish   license: 'MIT',
+68 silly publish   repository: { type: 'git', url: 'http://github.com/iammerrick/virality' },
+68 silly publish   _id: 'virality@0.0.1',
+68 silly publish   readme: 'ERROR: No README.md file found!',
+68 silly publish   dist: { shasum: '1e8ce9298e57e77d6ce2b7918c35b16d079881f4' } }
+69 verbose url raw virality
+70 verbose url resolving [ 'https://registry.npmjs.org/', './virality' ]
+71 verbose url resolved https://registry.npmjs.org/virality
+72 info trying registry request attempt 1 at 23:13:54
+73 http PUT https://registry.npmjs.org/virality
+74 http 409 https://registry.npmjs.org/virality
+75 verbose url raw virality
+76 verbose url resolving [ 'https://registry.npmjs.org/', './virality' ]
+77 verbose url resolved https://registry.npmjs.org/virality
+78 info trying registry request attempt 1 at 23:13:55
+79 http GET https://registry.npmjs.org/virality
+80 http 200 https://registry.npmjs.org/virality
+81 error publish fail Cannot publish over existing version.
+81 error publish fail Bump the 'version' field, set the --force flag, or
+81 error publish fail     npm unpublish 'virality@0.0.1'
+81 error publish fail and try again
+82 error System Darwin 12.2.1
+83 error command "/Users/iammerrick/.nvm/v0.8.15/bin/node" "/Users/iammerrick/.nvm/v0.8.15/bin/npm" "publish"
+84 error cwd /Users/iammerrick/Developer/JavaScript/virality
+85 error node -v v0.8.15
+86 error npm -v 1.1.66
+87 error code EPUBLISHCONFLICT
+88 verbose exit [ 1, true ]
