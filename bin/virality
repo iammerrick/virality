@@ -3,14 +3,8 @@
 var virality = require('../virality');
 
 var argv = require('optimist')
-  .describe({
-    'url' : 'What url would you like to check?' 
-  })
-  .alias({
-    'url' : 'u'
-  })
-  .demand('url')
-  .usage('Usage: --url [url]')
+  .usage('Usage: virality [url]')
+  .demand(1)
   .argv;
 
-virality(argv.url);
+virality(argv._[0]);
