@@ -2,9 +2,21 @@
 
 var virality = require('../virality');
 
-var argv = require('optimist')
-  .usage('Usage: virality [url]')
-  .demand(1)
-  .argv;
+var cli = require('optimist')
+  .describe({
+    'url' : 'What url would you like to check?' 
+  })
+  .alias({
+    'url' : 'u'
+  })
+  .usage('Usage: virality [url]');
 
-virality(argv._[0]);
+var argv = cli.argv;
+  
+var url = argv._[0] || argv.url;
+
+if (url) {
+  virality(url);
+} else {
+  cli.showHelp();
+}
