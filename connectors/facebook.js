@@ -6,12 +6,15 @@ function facebook(url) {
   var deferred = Q.defer();
 
   request({
-    url: util.format('http://graph.facebook.com/%s', url),
+    url: util.format(
+      'https://graph.facebook.com/fql?q=SELECT like_count, share_count FROM link_stat WHERE url = "%s"',
+        url
+      ),
     json: true
-  }, function(err, response) {
+  }, function(err, response, parsed) {
     var count = 0;
-    if (response.body.shares) {
-      count = response.body.shares;
+    if (parsed.data[0].share_count && parsed.data[0].like_count) {
+      count = parsed.data[0].share_count + parsed.data[0].like_count;
     }
     deferred.resolve(count);
   });
