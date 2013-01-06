@@ -1,6 +1,6 @@
 {
   "name": "virality",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A command line utility to check the virality of a particular URL.",
   "author": {
     "name": "Merrick Christensen",
