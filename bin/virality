@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+var virality = require('../virality');
+
+var argv = require('optimist')
+  .describe({
+    'url' : 'What url would you like to check?' 
+  })
+  .alias({
+    'url' : 'u'
+  })
+  .demand('url')
+  .usage('Usage: --url [url]')
+  .argv;
+
+virality(argv.url);

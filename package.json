@@ -1,0 +1,21 @@
+{
+  "name": "virality",
+  "version": "0.0.1",
+  "description": "A command line utility to check the virality of a particular URL.",
+  "author" : {
+    "name" : "Merrick Christensen",
+    "email" : "merrick.christensen@gmail.com"
+  },
+  "dependencies": {
+    "optimist": "latest",
+    "request": "~2.12.0",
+    "q": "~0.8.12",
+    "color": "~0.4.1"
+  },
+  "bin": "bin/virality",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/iammerrick/virality"
+  }
+}
